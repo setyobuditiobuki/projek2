@@ -1,17 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-          Belajar HTML 5 
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Web blog Tio </title>
+</head>
+<body>
 
-        </title>
-    </head>
+    <!-- Bagian atas -->
+    <header>
+        <h1>Sekapur Sirih</h1>
+        
+    </header>
 
-    <body>
-      <h1>Penjualan Barang</h1>
+    <!-- Menu navigasi -->
+    <nav>
+    <table border="1" cellspacing="0" cellpadding="8">
+      <tr>
+        <td><a href="#profil">Profil</a></td>
+        <td><a href="#tradisi">Tradisi Desa</a></td>
+        <td><a href="#pendidikan">Pendidikan</a></td>
+        <td><a href="#karir">Karir</a></td>
+        <td><a href="#galeri">Galeri</a></td>
+      </tr>
+    </table>
+    </nav>
+    <hr>
+    <!-- Konten utama -->
+    <main>
 
-    </body>
+        <!-- Bagian Profil -->
+        <section id="profil">
+            <h2>Profil Desa dan Masa Kecil</h2>
+            <p align="justify">
+                Saya dilahirkan Desa Pelemgede, Kecamatan Pucakwangi, Kabupaten Pati. Desa Pelemgede terletak di ujung tenggara kecamatan, dikelilingi hamparan sawah hijau, kebun yang subur, dan suasana pedesaan yang tenang. Kehidupan masyarakatnya sederhana, tetapi kental dengan nilai kebersamaan dan gotong royong.
+                Masa kecilnya dihabiskan dengan penuh keceriaan. Selain rajin belajar, Setyo Budi sangat gemar bermain sepak bola bersama teman-teman sebaya. Lapangan desa menjadi tempat favoritnya. Hampir setiap sore, selepas pulang sekolah, ia berlari di tanah lapang berdebu menggunakan bola seadanya, bahkan kadang hanya bola plastik atau gulungan kertas yang diikat.
+                <br>
+                Informasi detail tentang desa Pelemgede silahkan 
+                <a href="https://id.wikipedia.org/wiki/Pelemgede,_Pucakwangi,_Pati" target="_blank">disini</a>.
+            <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
 
+        <!-- Bagian Tradisi -->
+        <section id="tradisi">
+            <h2>Tradisi dan Gotong Royong</h2>
+            <p align="justify">
+                Sejak kecil pula, ia menyaksikan bagaimana masyarakat Pelemgede memelihara tradisi dan kebersamaan. Salah satu tradisi yang masih terjaga adalah Sedekah Bumi dan Karnaval Gunungan Hasil Bumi, di mana warga membuat gunungan hasil panen lalu diarak keliling desa sebagai wujud syukur kepada Tuhan.
+                Selain itu, ketika desa menghadapi bencana, seperti jembatan yang ambrol akibat banjir, warga dengan semangat gotong royong membangun jembatan darurat dari bambu agar anak-anak tetap bisa bersekolah. Semua pengalaman tersebut menumbuhkan kesadaran dalam dirinya tentang arti persaudaraan, solidaritas, dan kepedulian.
+           <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
 
+        <!-- Bagian Pendidikan -->
+        <section id="pendidikan">
+            <h2>Pendidikan</h2>
+            <p align="justify">
+                Perjalanan pendidikannya dimulai dari SDN Pelemgede 03, dilanjutkan ke SMPN Pucakwangi 01, kemudian masuk ke SMAN Jakenan dan pindah ke SMA Negeri 1 Timika, Papua. Setelah lulus SMA, ia melanjutkan pendidikan ke STMIK Dian Nuswantoro pada program Diploma 3 Manajemen Informatika, lalu melanjutkan ke jenjang Sarjana Sistem Informasi di Universitas Dian Nuswantoro (Udinus). Tidak berhenti di situ, semangat belajarnya terus berlanjut hingga berhasil meraih Magister Teknik Informatika di kampus yang sama.
+            <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
 
+        <!-- Bagian Karir -->
+        <section id="karir">
+            <h2>Karir</h2>
+            <p align="justify">
+                Semua perjuangan itu akhirnya mengantarkan Setyo Budi pada profesi yang ia jalani hingga kini, yaitu sebagai Dosen Sistem Informasi di Universitas Dian Nuswantoro Semarang. Dalam perannya sebagai pendidik, ia tidak hanya menyampaikan ilmu pengetahuan, tetapi juga menanamkan nilai-nilai yang ia dapat sejak kecil: kerja keras, kesederhanaan, sportivitas, kebersamaan, dan kepedulian sosial.
+            <br><a href="#top">Kembali ke Atas</a>
+            </p>
+        </section>
+
+        <!-- Bagian Galeri -->
+        <section id="galeri">
+            <h2>Galeri Desa</h2>
+            <p align="justify">
+                Kini, Setyo Budi menjadi contoh nyata bagaimana seorang anak desa dapat tumbuh, berjuang, dan sukses menjadi seorang akademisi. Ia tetap membawa semangat desa Pelemgede yang membentuk karakter hidupnya.
+                <br>Ini salah satu foto kegiatan warga Desa Pelemgede:
+            <br><a href="#top">Kembali ke Atas</a>
+            </p>
+            <br>
+            <table>
+            <tr><th>Foto 1</th><th>Foto 2</th></tr>
+                <td><img src="gambar/pelemgede3.jpg" alt="Kegiatan warga Desa Pelemgede"></td>
+                <td><img src="gambar/pelemgede4.jpg" alt="Kegiatan warga Desa Pelemgede"></td>
+                <td>Sumber : https://www.seputarmuria.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <form>
+                <br>
+                <h1>Silahkan isi data Anda di sini</h1>
+              
+                Nama  :<input type="text" name="tnama"><br>
+                email :<input type="email" name="temail">
+                <input type="submit" value="Kirim">    
+                <br>
+            </form>    
+        </section>
+
+        <section>
+            <h1>Hobi</h1>
+                <ul>
+                    <li>Belajar</li>
+                    <li>Membaca</li>
+                    <li>Bersepeda</li>
+                </ul>
+                <h1>Keahlian</h1>
+                <ol>
+                    <li>Web Development</li>
+                    <li>Membaca</li>
+                    <li>Bersepeda</li>
+                </ol>
+        </section>        
+    </main>
+
+    <!-- Bagian Bawah -->
+    <footer>
+        <hr>
+        <p>&copy; 2025 - Biografi Singkat Setyo Budi </p>
+    </footer>
+
+</body>
 </html>
